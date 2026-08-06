@@ -91,7 +91,16 @@ nav a {
   object-fit: cover;
   border-radius: 10px;
 }
+/* --- 4.1 联系页面对齐修补 --- */
+dt, th {
+  text-align: left !important;
+}
 
+dl {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  row-gap: 10px;
+}
 /* --- 5. FOOTER (保持白色) --- */
 footer {
   background-color: #a2d9a7 !important;
