@@ -46,10 +46,21 @@ header > section {
 }
 
 header h1 {
-  font-size: 2.2rem;
-  color: #2cbbc3;
+  font-size: 2.5rem;
+  color: #5c3a21; 
+  font-family: "Comic Sans MS", "Chalkboard SE", "Trebuchet MS", cursive, sans-serif; 
   margin: 0;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 2px 0px #ffffff; 
+}
+
+
+h2, h3 {
+  color: #4a2e1b; 
+  font-family: "Comic Sans MS", "Chalkboard SE", "Trebuchet MS", cursive, sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px; 
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 /* --- 3. 导航栏 (保持黄色) --- */
