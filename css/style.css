@@ -117,6 +117,19 @@ dl {
   grid-template-columns: 160px 1fr;
   row-gap: 10px;
 }
+.video-container {
+  width: 80%;
+  max-width: 650px;
+  margin: 20px auto 40px auto;
+  box-sizing: border-box;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
 /* --- 5. FOOTER (保持白色) --- */
 footer {
   background-color: #a2d9a7 !important;
