@@ -113,15 +113,15 @@ dl {
   row-gap: 10px;
 }
 .video-container {
-  width: 80%;
-  max-width: 650px;
-  margin: 20px auto 40px auto;
+  width: 90%;            /* 占满 90% 的宽度 */
+  max-width: 600px;      /* 限制最大宽度 */
+  margin: 30px auto;     /* 上下留白 30px 并居中 */
   box-sizing: border-box;
 }
 
 .video-container video {
-  width: 100%;
-  height: auto;
+  width: 100% !important; /* 强制视频填满容器 */
+  height: auto !important;
   display: block;
   border-radius: 10px;
 }
