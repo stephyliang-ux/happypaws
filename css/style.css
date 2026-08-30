@@ -22,7 +22,11 @@ body {
   /* 增加轻微阴影，让中间绿色区域和两侧白边有区分感 */
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
-
+video, img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 /* --- 2. HEADER 布局 (修复文字出界) --- */
 header {
   width: 100%;
