@@ -179,3 +179,28 @@ a:focus {
 input[type="password"] {
   letter-spacing: 0.3em;
 }
+.additional-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #eee; 
+}
+
+.feature-card {
+  flex: 1 1 calc(50% - 30px); 
+  box-sizing: border-box;
+}
+
+.feature-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    flex: 1 1 100%;
+  }
+}
